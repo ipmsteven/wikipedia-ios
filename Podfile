@@ -28,7 +28,7 @@ pod 'BlocksKit/UIKit', '~> 2.2.0'
 pod 'KVOController'
 
 # Dates
-pod 'NSDate-Extensions', :git => 'git@github.com:wikimedia/NSDate-Extensions.git'
+pod 'NSDate-Extensions', :git => 'https://github.com/wikimedia/NSDate-Extensions.git'
 
 # Database
 pod 'YapDatabase'
@@ -40,7 +40,7 @@ pod 'SSDataSources', '~> 0.8.0'
 pod 'Masonry', '0.6.2'
 
 # Views
-pod 'OAStackView', :git => 'git@github.com:wikimedia/OAStackView.git'
+pod 'OAStackView', :git => 'https://github.com/wikimedia/OAStackView.git'
 pod 'TSMessages', :git => 'https://github.com/wikimedia/TSMessages.git'
 pod 'SVWebViewController', '~> 1.0'
 # pod "SWStepSlider", :git => 'https://github.com/wikimedia/SWStepSlider.git'
@@ -55,9 +55,9 @@ pod 'VTAcknowledgementsViewController'
 pod 'NYTPhotoViewer'
 
 # Diagnostics
-pod 'PiwikTracker', :git => 'git@github.com:piwik/piwik.git'
+pod 'PiwikTracker', :git => 'https://github.com/piwik/piwik.git'
 pod 'HockeySDK', '~> 3.8.2'
-pod 'Tweaks', :git => 'git@github.com:facebook/Tweaks.git'
+pod 'Tweaks', :git => 'https://github.com/facebook/Tweaks.git'
 
 target 'WikipediaUnitTests' do
   pod 'OCMockito', '~> 1.4.0'
