@@ -59,7 +59,7 @@ pod 'PiwikTracker', :head
 pod 'HockeySDK', '~> 3.8.2'
 pod 'Tweaks', :head
 
-target 'WikipediaUnitTests', :exclusive => true do
+target 'WikipediaUnitTests' do
   pod 'OCMockito', '~> 1.4.0'
   pod 'OCHamcrest', '~> 4.2.0'
   pod 'Nocilla'
