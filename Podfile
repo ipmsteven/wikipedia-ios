@@ -7,7 +7,7 @@ platform :ios, :deployment_target => '8.0'
 
 inhibit_all_warnings!
 
-xcodeproj 'Wikipedia'
+project 'Wikipedia'
 
 # HTML
 pod 'hpple', '~> 0.2'
@@ -55,9 +55,9 @@ pod 'VTAcknowledgementsViewController'
 pod 'NYTPhotoViewer'
 
 # Diagnostics
-pod 'PiwikTracker', :head
+pod 'PiwikTracker', :git => 'git@github.com:piwik/piwik.git'
 pod 'HockeySDK', '~> 3.8.2'
-pod 'Tweaks', :head
+pod 'Tweaks', :git => 'git@github.com:facebook/Tweaks.git'
 
 target 'WikipediaUnitTests' do
   pod 'OCMockito', '~> 1.4.0'
